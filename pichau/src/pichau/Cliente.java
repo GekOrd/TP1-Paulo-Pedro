@@ -17,6 +17,7 @@ public class Cliente {
     private String email;
     private String password;
     private String confirm_password;
+    private Endereco enderecoResidencial;
 
     /**
      * @return the Name
@@ -114,5 +115,19 @@ public class Cliente {
      */
     public void setConfirm_password(String confirm_password) {
         this.confirm_password = confirm_password;
+    }
+
+    /**
+     * @return the enderecoResidencial
+     */
+    public Endereco getEnderecoResidencial() {
+        return enderecoResidencial;
+    }
+
+    /**
+     * @param enderecoResidencial the enderecoResidencial to set
+     */
+    public void setEnderecoResidencial(Endereco enderecoResidencial) {
+        this.enderecoResidencial = enderecoResidencial;
     }
 }
